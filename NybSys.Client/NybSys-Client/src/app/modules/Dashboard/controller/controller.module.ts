@@ -10,7 +10,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
     {
-        path: "View-Controller",
+        path: "View-Controller", 
         component: ViewcontrollerComponent,
         data: {
             titile2: 'Controller List'
