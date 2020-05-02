@@ -1,0 +1,56 @@
+[
+    {
+        "Title": "Dashboard",
+        "Url": "/dashboard",
+        "Icon": "fa fa-dashboard fa-fw",
+        "Child": null,
+        "AccessRights": ["SuperAdmin","Admin"]
+    },
+    {
+        "Title": "Page 1",
+        "Url": "/dashboard/Others/Page1",
+        "Icon": "fa fa-fw fa-cubes",
+        "Child": null,
+        "AccessRights": ["SuperAdmin","Admin"]
+    },
+    {
+        "Title": "Settings",
+        "Url": null,
+        "Icon": "fa fa-fw fa-cog",
+        "AccessRights": ["SuperAdmin","Admin"],
+        "Child": [
+            {
+                "Title": "User List",
+                "Url": "/dashboard/user/user-list",
+                "Icon": "fa fa-fw fa-users",
+                "AccessRights": ["SuperAdmin","Admin"]
+            },
+            {
+                "Title": "Access Right",
+                "Url": "/dashboard/access-right/access-right-list",
+                "Icon": "fa fa-fw fa-tasks",
+                "AccessRights": ["SuperAdmin","Admin"]
+            }
+        ]
+    },
+    {
+        "Title": "Report",
+        "Url": null,
+        "Icon": "fa fa-fw fa-book",
+        "AccessRights": ["SuperAdmin","Admin"],
+        "Child": [
+            {
+                "Title": "Session Log",
+                "Url": "/dashboard/report/session-log",
+                "Icon": "fa fa-fw fa-user-secret",
+                "AccessRights": ["SuperAdmin","Admin"]
+            },
+            {
+                "Title": "Audit Log",
+                "Url": "/dashboard/report/audit-log",
+                "Icon": "fa fa-fw fa-user-md",
+                "AccessRights": ["SuperAdmin","Admin"]
+            }
+        ]
+    }
+]
